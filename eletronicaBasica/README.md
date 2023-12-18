@@ -21,7 +21,7 @@
        - Light Emitting Diode (LED) (https://github.com/FNakano/OAC1/blob/main/oProblema.md#l%C3%A2mpada-comparada-ao-led)
     6. Resistor
 3. Sensores e atuadores
-    1. Sinal digital
+    1. Sinal digital (https://github.com/FNakano/CFA/tree/master/componentes/protocolos)
     2. Sinal analógico
         1. ADC (Analog to Digital Converter)
         2. DAC (Digital to Analog Converter)
