@@ -4,7 +4,7 @@
 
 [![](https://mermaid.ink/img/pako:eNplk89O3DAQxl_F8pntodz2gAQbkJBArAi3ZCVm7WHXIrajsSNUIR4G9VC114onyIsxjpPNluYQ2b_5PN-M_7xK5TXKpXxq_IvaA0XxUNRO8Ke8U2iiD1UtHzNaGVIdI4FN_zuSUT7zB3Sh_zljGOWeCF3Er_wegwmx_-OUga-xGzRCo7jb2zFHR-ynRuPMCogQ9ogx5HnJ2dBCSAtXV5k91nJTu6kT285NrMlHv_VAenSAFhTnprEXApfKm-aF8dof1z0Fjh1KdOdxtiiNg0ZoszMRmmME_Ov_7g4bd827Q9D_6j8wpDIF2K1JW_a_hTWK_GxxWa5Pv-fhOenOOH-8ZMBi8W1xNh9jphcTte3YfgZDB2PHmQyGY6pqNWUR2_49cP1hIxYsuuCIbb1LNYfNwYIjq4pTBk_cGAqIHeg03hxMWVJUt8mDK4zkm38ExSC4rNbUv0e-HIzlibRIFozm6_qaZLWMe7RYyyUPNdBzLWv3xjrooi9_OCWXkTo8kV2rIWJhYEdg5fIJmsAUdTr123z_h2fw9gmYtADE?type=png)](https://mermaid.live/edit#pako:eNplk89O3DAQxl_F8pntodz2gAQbkJBArAi3ZCVm7WHXIrajsSNUIR4G9VC114onyIsxjpPNluYQ2b_5PN-M_7xK5TXKpXxq_IvaA0XxUNRO8Ke8U2iiD1UtHzNaGVIdI4FN_zuSUT7zB3Sh_zljGOWeCF3Er_wegwmx_-OUga-xGzRCo7jb2zFHR-ynRuPMCogQ9ogx5HnJ2dBCSAtXV5k91nJTu6kT285NrMlHv_VAenSAFhTnprEXApfKm-aF8dof1z0Fjh1KdOdxtiiNg0ZoszMRmmME_Ov_7g4bd827Q9D_6j8wpDIF2K1JW_a_hTWK_GxxWa5Pv-fhOenOOH-8ZMBi8W1xNh9jphcTte3YfgZDB2PHmQyGY6pqNWUR2_49cP1hIxYsuuCIbb1LNYfNwYIjq4pTBk_cGAqIHeg03hxMWVJUt8mDK4zkm38ExSC4rNbUv0e-HIzlibRIFozm6_qaZLWMe7RYyyUPNdBzLWv3xjrooi9_OCWXkTo8kV2rIWJhYEdg5fIJmsAUdTr123z_h2fw9gmYtADE)
 
-1. Conceitos básicos
+1. Conceitos básicos (ver o que serve em https://github.com/FNakano/CFA/blob/master/eletricidade.md e em https://github.com/FNakano/CFA/blob/master/circuitosEletricos.md)
     1. Circuito elétrico
     2. Tensão elétrica (V)
     3. Corrente elétrica (A)
@@ -14,11 +14,12 @@
     7. Datasheet
     8. Sistemas de computação física
 2. Componentes
-    1. Protoboard
+    1. Protoboard ( ver o que serve em: https://github.com/FNakano/CFA/blob/master/componentes/interconexoes/README.md)
     2. Capacitor
-    3. Transistor
+    3. Transistor (https://github.com/FNakano/OAC1/blob/main/oProblema.md#indo-um-pouco-al%C3%A9m-do-vestibular , https://github.com/FNakano/OAC1/blob/main/oProblema.md)
     4. Diodo
-    5. Resistor
+       - Light Emitting Diode (LED) (https://github.com/FNakano/OAC1/blob/main/oProblema.md#l%C3%A2mpada-comparada-ao-led)
+    6. Resistor
 3. Sensores e atuadores
     1. Sinal digital
     2. Sinal analógico
@@ -31,7 +32,7 @@
         3. LED (Emissão de luz)
         4. LED RGB (Emissão de luz de diferentes cores)
         5. Servo motor (Movimentação)
-        6. LDR 3mm 3547-2 (Medição de Luminosidade)
+        6. LDR 3mm 3547-2 (Medição de Luminosidade) (https://arduinoeach.wordpress.com/2018/04/20/code-ldr-e-teremim/)
         7. LM35 (Medição de Temperatura)
         8. TTP223B (Sensor de toque)
         9. TCRT5000 (Medição e emissão de infravermelho)
@@ -39,11 +40,11 @@
     1. ESP32
         1. Pinagem
         2. Linguagens de programação
-            1. MicroPython
-            2. Arduino IDE
+            1. MicroPython (https://docs.micropython.org/en/latest/esp32/quickref.html)
+            2. Arduino IDE (https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/installing.html)
         3. Burn firmware
         4. Manipulação de documentos com a placa
-            1. Thonny
+            1. Thonny (https://thonny.org , https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
             2. Ampy
             3. Arduino IDE
         5. Simulação (Wokwi)
