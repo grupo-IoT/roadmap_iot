@@ -104,4 +104,49 @@ while True:
 ```
 
 ## Materiais complementares
-- [Introdução à microcontroladores com ESP 32 - PET-SI](https://github.com/owlficinas/Microcontroladores-ESP32/tree/master) 
+- [Introdução à microcontroladores com ESP 32 - PET-SI](https://github.com/owlficinas/Microcontroladores-ESP32/tree/master)
+
+## código fonte do roadmap
+
+```mermaid
+flowchart TD
+    conceitos["`
+    Circuito elétrico
+    Tensão elétrica
+    Corrente elétrica
+    Resistência elétrica
+    Lei de Ohm
+    Curto circuito
+    Datasheets
+    Sistemas de CF
+    `"]
+
+    comp["`
+    Protoboard
+    Capacitor
+    Transistor
+    Diodo
+    Resistor
+    `"]
+
+    SenAt["`
+    Sinal digital
+    Sinal analógico
+    Interações com ambiente
+    `"]
+
+    micro["`
+    ESP32
+    Arduino
+    `"]
+    A -.-> conceitos
+    B -.-> comp
+    C -.-> SenAt
+    D -.-> micro
+    A[Conceitos básicos] --> B[Componentes]
+    B --> C[Sensores e atuadores]
+    C --> D[Microcontroladores]
+    D --> E[Prática]
+
+``` 
+
